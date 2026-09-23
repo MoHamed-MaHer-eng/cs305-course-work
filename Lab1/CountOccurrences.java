@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Task1 {
+public class CountOccurrences {
     public static void main(String[] args) {
         //Task :  Write a method that count occurrences of each word in file input.txt to output.txt
 

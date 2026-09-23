@@ -12,6 +12,6 @@ public class Maps {
         Map <String , Boolean > map = new HashMap<>() ;
         map.put("0", false) ;
         map.put("1" , true);
-        System.out.println(map);
+        System.out.println(map.toString());
     }
 }
