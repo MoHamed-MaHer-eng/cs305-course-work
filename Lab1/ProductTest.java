@@ -17,9 +17,9 @@ public class ProductTest {
             while (in.hasNext()){
                 Product p = new Product() ;
                 String[]strs = in.nextLine().split(",") ;
-                p.setId(Integer.valueOf(strs[0]));
+                p.setId(Integer.parseInt(strs[0]));
                 p.setName(strs[1]);
-                p.setPrice(Double.valueOf(strs[2]));
+                p.setPrice(Double.parseDouble(strs[2]));
                 products.add(p) ;
             }
         }catch (FileNotFoundException e){
